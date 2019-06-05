@@ -2,11 +2,12 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_PCD8544.h>
 
-//CLK --- Pin 2
-//DIN --- Pin 4
-//D/C --- Pin 5
-//CS  --- Pin 6
-//RST --- Pin 7
+// CLK   --- Pin 2
+// LIGHT --- Pin 3
+// DIN   --- Pin 4
+// D/C   --- Pin 5
+// CS    --- Pin 6
+// RST   --- Pin 7
 
 Adafruit_PCD8544 display = Adafruit_PCD8544(2, 4, 5, 6, 7);
 
